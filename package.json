@@ -1,0 +1,24 @@
+{
+  "name": "trueque",
+  "version": "1.0.0",
+  "description": "Plataforma de Trueque Premium",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trueque",
+    "nodejs",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^12.6.2",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  }
+}
